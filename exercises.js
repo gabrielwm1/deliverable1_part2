@@ -39,7 +39,6 @@ var start = prompt("do you want to play:");
 		
 		console.log(wholestring);
 		}
-		
 
 		
 		
@@ -59,8 +58,7 @@ while (answer == "yes"){
 	
 	points.push(counter);
 	
-	
-	console.log("Helly. My name is" + name + points);
+    console.log("Helly. My name is " + name + points.join(""));
 	
 	answer = prompt("would you like to print your name?");
 	
@@ -76,11 +74,11 @@ if (timeday= "morning"){
 }
 
 else if (timeday = "noon") {
-	console.log("since it is noon, you should be eating lunch. We suggest a salad."
+	console.log("since it is noon, you should be eating lunch. We suggest a salad.")
 }
 
 else if (timeday = "evening") {
-	console.log("since it is evening, you shoud be eating dinner. We suggest chicken and rice."
+	console.log("since it is evening, you shoud be eating dinner. We suggest chicken and rice.")
 }
 else {
 }
